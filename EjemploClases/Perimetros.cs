@@ -25,6 +25,7 @@ namespace EjemploClases
         public void PerimetroRectangulo (double b, double h, ref double p)
         {
             p = 2 * (b + h);
+            Console.Write("BIBLIOTECAS");
         }
     }
 }
