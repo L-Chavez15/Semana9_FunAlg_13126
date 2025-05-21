@@ -10,6 +10,7 @@ namespace EjemploClases
     {
         //muchosmetodos- funcionalidades
         //recomendable ponerlo publico
+        //No olvidar el Public, es importante
         public double AreaCuadrado(double l)
         {
             double a;
@@ -20,14 +21,14 @@ namespace EjemploClases
         {
             return (b * h) / 2;
         }
-        static double AreaCirculo(double r)
+        public double AreaCirculo(double r)
         {
             //pi es una constante númerica
             double a;
             a = Math.PI * Math.Pow(r, 2);
             return a;
         }
-        static double AreaRectangulo(double b, double h)
+        public double AreaRectangulo(double b, double h)
         {
             double a=b*h;
             return a;
